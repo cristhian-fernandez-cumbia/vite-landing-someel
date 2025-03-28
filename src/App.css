@@ -39,21 +39,10 @@ a:hover {
   font-weight: 400;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-scroll {
-  animation: scroll 30s linear infinite;
-}
-
-.animate-scroll:hover {
-  animation-play-state: paused;
+.carrousel-container{
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
 
 @keyframes scroll {
@@ -62,11 +51,11 @@ a:hover {
 }
 
 .animate-scroll {
-  animation: scroll 40s linear infinite;
+  animation: scroll 25s linear infinite;
 }
 
 @media (min-width: 768px) {
-  .animate-scroll { animation-duration: 30s; }
+  .animate-scroll { animation-duration: 25s; }
 }
 
 @media (min-width: 1024px) {

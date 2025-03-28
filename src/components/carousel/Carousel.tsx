@@ -11,8 +11,8 @@ interface CarouselProps {
 
 const Carousel: React.FC<CarouselProps> = ({ cardsData }) => {
   return (
-    <div className="overflow-hidden w-full">
-      <div className="flex w-[600%] md:w-[500%] lg:w-[400%] xl:w-[300%] 2xl:w-[200%] gap-8 animate-scroll">
+    <div className="overflow-hidden w-full carrousel-container">
+      <div className="flex w-[850%] md:w-[500%] lg:w-[400%] xl:w-[300%] 2xl:w-[250%] gap-8 animate-scroll">
         {[...cardsData, ...cardsData].map((card, index) => {
           const originalIndex = index % cardsData.length;
           return (
