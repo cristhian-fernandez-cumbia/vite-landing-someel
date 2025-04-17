@@ -1,28 +1,31 @@
 import Button from "../button/Button"
 import Carousel from "../carousel/Carousel";
-
+import carlos_someel from "./../../assets/images/coaches/coach_carlos_someel.png";
+import sandra_someel from "./../../assets/images/coaches/coach_sandra_someel.png";
+import thalia_someel from "./../../assets/images/coaches/coach_thalia_someel.png";
+import junior_someel from "./../../assets/images/coaches/coach_junior_someel.png";
 
 const Banner = () => {
 
   const cardsData = [
     {
-      imageUrl: "https://letymind.com/wp-content/uploads/2024/10/m-3-2.webp",
+      imageUrl: carlos_someel,
       name: "Carlos Mauriola",
       passion: "Me apasiona las aventuras",
     },
     {
-      imageUrl: "https://letymind.com/wp-content/uploads/2024/10/w-1.png",
-      name: "Ana Martinez",
+      imageUrl: sandra_someel,
+      name: "Sandra Martinez",
       passion: "Me apasiona la ciencia ficción",
     },
     {
-      imageUrl: "https://letymind.com/wp-content/uploads/2024/10/w-2.webp",
-      name: "Luisa Gonzalez",
+      imageUrl: thalia_someel,
+      name: "Gueidy Chavez",
       passion: "Me apasiona el misterio",
     },
     {
-      imageUrl: "https://letymind.com/wp-content/uploads/2024/10/w-3-2.webp",
-      name: "María Guitierrez",
+      imageUrl: junior_someel,
+      name: "Junior Barboza",
       passion: "Me apasiona la historia",
     },
     {
