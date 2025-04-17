@@ -39,7 +39,7 @@ const Banner = () => {
       <p className="mt-4 text-center md:w-[600px] mb-4 text-white">
         ¿Te cuesta mantener el hábito de lectura? Encuentra a tu compañero ideal que te motivara, te explicara lo leído y te ayudara a terminar esos libros que siempre quisiste.
       </p>
-      <Button text="Prueba Gratis" message="Hola, me gustaría encontrar a mi compañero de lectura ideal. Necesito ayuda para mantener el hábito y disfrutar más de mis libros."/>
+      <Button text="Prueba Gratis"/>
 
       <div className="mt-6 w-full max-w-[1500px]">
         <Carousel cardsData={cardsData} />

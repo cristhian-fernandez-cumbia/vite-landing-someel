@@ -1,16 +1,6 @@
-h1 {
-  font-size: 2.6rem;
-  line-height: 1.1;
-  font-weight: bold;
-  color: #FFF;
-}
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  text-decoration: none;
 }
 .button {
   padding: 0.6em 1.2em;
@@ -63,10 +53,51 @@ a:hover {
 }
 
 @media (min-width: 1280px) {
-  .animate-scroll { animation-duration: 20s; }
+  .animate-scroll { animation-duration: 40s; }
 }
 
 .animate-scroll:hover {
   animation-play-state: paused;
 }
 
+.bg-primary{
+  background: linear-gradient(to bottom right, #eb228d , #0A6D98); 
+}
+
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #FFF;
+}
+
+h2 {
+  font-size: 1.3rem;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #FFF;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.button-delete{
+  line-height: 1;
+}
