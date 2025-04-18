@@ -2,7 +2,7 @@ import pasos_inscripcion_someel from './../../assets/images/banner/pasos_inscrip
 
 const Steps = () => {
   return (
-    <div className="py-3 2xl:py-8 px-12 rounded-xl bg-seccion mb-6 flex flex-row relative overflow-hidden justify-center 2xl:justify-start gap-4">
+    <div className="py-3 2xl:py-8 px-5 md:px-12 rounded-xl bg-seccion mb-6 flex flex-row relative overflow-hidden justify-center 2xl:justify-start gap-4">
       <div className='flex flex-col justify-center'>
         <h3 className="color-primary font-medium mb-2 text-xl">¿Cómo empiezo?</h3>
         <h2 className="title-seccion mb-5">Estás a 4 pasos de transformar tu hábito de lectura con Someel:</h2>
