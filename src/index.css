@@ -13,7 +13,7 @@
   --color-borde: #062c3d;   
 
   --padding-body-left: 16px; 
-  --padding-body-right: 16px; 
+  --padding-body-right: 16px;
 }
 
 body {
@@ -72,4 +72,16 @@ body {
 
 p{
   font-size: 18px;
+}
+
+.bg-seccion{
+  background: radial-gradient(circle, #065F87 40%, #043F5C 80%);
+}
+
+.color-primary {
+  color: #E8037D;
+}
+
+.color-secundary {
+  color: #0A6D98;
 }

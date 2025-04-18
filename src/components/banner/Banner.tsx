@@ -40,7 +40,7 @@ const Banner = () => {
       <h1 className="text-center">Encuentra a tu compañero</h1>
       <h1 className="text-center">de Lectura Ideal</h1>
       <p className="mt-4 text-center md:w-[600px] mb-4 text-white">
-        ¿Te cuesta mantener el hábito de lectura? Encuentra a tu compañero ideal que te motivara, te explicara lo leído y te ayudara a terminar esos libros que siempre quisiste.
+        ¿Te cuesta mantener el hábito de lectura? Encuentra a tu compañero ideal que te motivará, te explicará lo leído y te ayudará a terminar esos libros que siempre quisiste.
       </p>
       <Button text="Prueba Gratis" message="Hola, me gustaría encontrar a mi compañero de lectura ideal. Necesito ayuda para mantener el hábito y disfrutar más de mis libros."/>
 
